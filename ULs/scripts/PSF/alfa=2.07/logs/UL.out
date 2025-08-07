@@ -1,0 +1,413 @@
+########################## start user prologue 13504 ###########################
+Created QTMPDIR
+QTMPDIR=/local/1414965
+##########################  end user prologue  13504 ###########################
+This is the Sara Fraija Space
+Activate HAWC enviroment
+>>> Configuration file found, will be ignored in favour of command line
+INFO [ConfigDirDetectorService.cc, Initialize:40]: configDir not given; using environment variable CONFIG_HAWC.
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 3 of Tank Survey
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 3 of PMT Survey
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 1 of Detector Location
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 3 of PMT Channel Mapping
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 3 of GTC Channel Mapping
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 2 of Trigger Channel Mapping
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 3 of Live PMTs
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 5 of Bad PMTs
+INFO [ConfigDirDispatch-inl.h, ConfigDirDispatch:73]: Reading revision 5 of Issue PMTs
+INFO [HAWCNest.cc, Configure:45]: Configuring det
+INFO [HAWCNest.cc, Configure:66]: Configured with:
+  - addOR -> false (bool)
+  - configDir ->  (string)
+  - pmtMapFile ->  (string)
+
+INFO [ConfigDirDispatch-inl.h, Update:127]: Updating for time 1100000000 s(Tank Survey)
+INFO [ConfigDirReader.h, ReadFile:32]: reading Tank Survey from file /data/disk01/home/smfraijac/hawc_software/hawc_aerie/config-hawc/survey/tank-layout-03
+INFO [ConfigDirDispatch-inl.h, Update:127]: Updating for time 1100000000 s(PMT Survey)
+INFO [ConfigDirReader.h, ReadFile:32]: reading PMT Survey from file /data/disk01/home/smfraijac/hawc_software/hawc_aerie/config-hawc/survey/pmt-layout-03
+INFO [ConfigDirDispatch-inl.h, Update:127]: Updating for time 1100000000 s(Detector Location)
+INFO [ConfigDirReader.h, ReadFile:32]: reading Detector Location from file /data/disk01/home/smfraijac/hawc_software/hawc_aerie/config-hawc/survey/detector-location-01
+INFO [ConfigDirDispatch-inl.h, Update:127]: Updating for time 1100000000 s(PMT Channel Mapping)
+INFO [ConfigDirReader.h, ReadFile:32]: reading PMT Channel Mapping from file /data/disk01/home/smfraijac/hawc_software/hawc_aerie/config-hawc/channel-mapping/pmt-channel-mapping/HAWC_300_2
+INFO [ConfigDirDetectorService.cc, GetDetector:141]: need to update the detector for time 1100000000 s
+INFO [ConfigDirDetectorService.cc, GetDetector:280]: Initializing detector...
+INFO [ConfigDirDetectorService.cc, GetDetector:282]: Done initializing detector...
+INFO [FluxNormFit.cc, main:152]: Loading bin B0C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B0C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B1C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B1C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B2C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B2C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B3C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B3C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B4C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B4C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B5C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B5C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B6C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B6C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B7C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B7C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B8C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B8C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B9C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B9C1 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B10C0 map...
+INFO [FluxNormFit.cc, main:152]: Loading bin B10C1 map...
+INFO [DetectorResponse.cc, DetectorResponse:512]: Loading detector response from /lustre/hawcz01/scratch/userspace/jorgeamontes/GRB_KN//config/pass5.f_DR/zebra-100pct-FHit.root
+INFO [DetectorResponse.cc, DetectorResponse:547]: Spectral energy distribution: Simple power law [N(e/E₀)^(-𝛼) where N = 1e-17 TeV⁻¹ cm⁻² s⁻¹, E₀ = 1 TeV, 𝛼 = 2.63] for E∈(0,∞) TeV
+EBL: z = 0 ()
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B0C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.027001*rec.nChAvail)&&(rec.nHit<=0.047001*rec.nChAvail)&&(rec.LDFChi2<3.129999)&&(rec.nHitSP20/rec.CxPE40>2.190001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B0C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.027001*rec.nChAvail)&&(rec.nHit<=0.047001*rec.nChAvail)&&(rec.LDFChi2<1.919999)&&(rec.nHitSP20/rec.CxPE40>2.530001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B1C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.047001*rec.nChAvail)&&(rec.nHit<=0.068001*rec.nChAvail)&&(rec.LDFChi2<3.079999)&&(rec.nHitSP20/rec.CxPE40>4.170001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B1C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.047001*rec.nChAvail)&&(rec.nHit<=0.068001*rec.nChAvail)&&(rec.LDFChi2<1.719999)&&(rec.nHitSP20/rec.CxPE40>3.090001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B2C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.068001*rec.nChAvail)&&(rec.nHit<=0.104001*rec.nChAvail)&&(rec.LDFChi2<2.839999)&&(rec.nHitSP20/rec.CxPE40>6.940001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B2C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.068001*rec.nChAvail)&&(rec.nHit<=0.104001*rec.nChAvail)&&(rec.LDFChi2<1.739999)&&(rec.nHitSP20/rec.CxPE40>4.390001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B3C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.104001*rec.nChAvail)&&(rec.nHit<=0.161001*rec.nChAvail)&&(rec.LDFChi2<2.469999)&&(rec.nHitSP20/rec.CxPE40>10.420001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B3C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.104001*rec.nChAvail)&&(rec.nHit<=0.161001*rec.nChAvail)&&(rec.LDFChi2<1.889999)&&(rec.nHitSP20/rec.CxPE40>6.410001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B4C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.161001*rec.nChAvail)&&(rec.nHit<=0.245001*rec.nChAvail)&&(rec.LDFChi2<2.119999)&&(rec.nHitSP20/rec.CxPE40>13.890001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B4C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.161001*rec.nChAvail)&&(rec.nHit<=0.245001*rec.nChAvail)&&(rec.LDFChi2<1.249999)&&(rec.nHitSP20/rec.CxPE40>2.530001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B5C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.245001*rec.nChAvail)&&(rec.nHit<=0.351001*rec.nChAvail)&&(rec.LDFChi2<1.919999)&&(rec.nHitSP20/rec.CxPE40>16.670001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B5C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.245001*rec.nChAvail)&&(rec.nHit<=0.351001*rec.nChAvail)&&(rec.LDFChi2<1.269999)&&(rec.nHitSP20/rec.CxPE40>1.740001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B6C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.351001*rec.nChAvail)&&(rec.nHit<=0.472001*rec.nChAvail)&&(rec.LDFChi2<1.629999)&&(rec.nHitSP20/rec.CxPE40>10.420001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B6C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.351001*rec.nChAvail)&&(rec.nHit<=0.472001*rec.nChAvail)&&(rec.LDFChi2<1.229999)&&(rec.nHitSP20/rec.CxPE40>1.670001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B7C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.472001*rec.nChAvail)&&(rec.nHit<=0.599001*rec.nChAvail)&&(rec.LDFChi2<1.549999+0.157738*pow(rec.zenithAngle,4.))&&(rec.nHitSP20/rec.CxPE40>1.670001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B7C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.472001*rec.nChAvail)&&(rec.nHit<=0.599001*rec.nChAvail)&&(rec.LDFChi2<1.269999+0.248658*pow(rec.zenithAngle,4.))&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B8C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.599001*rec.nChAvail)&&(rec.nHit<=0.722001*rec.nChAvail)&&(rec.LDFChi2<1.439999+0.234193*pow(rec.zenithAngle,4.))&&(rec.nHitSP20/rec.CxPE40>1.670001)&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B8C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.599001*rec.nChAvail)&&(rec.nHit<=0.722001*rec.nChAvail)&&(rec.LDFChi2<1.239999+0.320031*pow(rec.zenithAngle,4.))&&(rec.nChTot>800)&&(rec.nChAvail>0.900001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B9C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.722001*rec.nChAvail)&&(rec.nHit<=0.828001*rec.nChAvail)&&(rec.LDFChi2<1.389999+0.319690*pow(rec.zenithAngle,4.))&&(rec.nChTot>800)&&(rec.nChAvail>0.800001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B9C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.722001*rec.nChAvail)&&(rec.nHit<=0.828001*rec.nChAvail)&&(rec.LDFChi2<1.179999+0.351065*pow(rec.zenithAngle,4.))&&(rec.nChTot>800)&&(rec.nChAvail>0.800001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B10C0. Cuts:
+ "(rec.coreFiduScale<=100)&&(rec.nHit>0.828001*rec.nChAvail)&&(rec.nHit<=1.010001*rec.nChAvail)&&(rec.LDFChi2<1.269999+0.413186*pow(rec.zenithAngle,4.))&&(rec.nChTot>800)&&(rec.nChAvail>0.800001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:597]: Bin name: B10C1. Cuts:
+ "(rec.coreFiduScale>100)&&(rec.coreFiduScale<=150)&&(rec.nHit>0.828001*rec.nChAvail)&&(rec.nHit<=1.010001*rec.nChAvail)&&(rec.LDFChi2<1.109999+0.522436*pow(rec.zenithAngle,4.))&&(rec.nHitSP20/rec.CxPE40>2.080001)&&(rec.nChTot>800)&&(rec.nChAvail>0.800001*rec.nChTot)"
+INFO [DetectorResponse.cc, DetectorResponse:613]: Loading response matrices...
+INFO [DetectorResponse.cc, DetectorResponse:672]: Zenith bins: 0˚-8.865˚, 8.865˚-12.82˚, 12.82˚-16.35˚, 16.35˚-19.53˚, 19.53˚-22.65˚, 22.65˚-25.66˚, 25.66˚-29.19˚, 29.19˚-33.06˚, 33.06˚-38.46˚, 38.46˚-50˚
+INFO [DetectorResponse.cc, Reweight:916]: Reweighting. Aplying EBL attenuation: z = 0.009 (Gilmore12Fiducial)
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 101.042 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 103.395 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 105.803 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 108.268 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 110.79 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 113.37 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 116.011 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 118.713 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 121.479 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 124.308 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 127.204 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 130.167 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 133.199 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 136.301 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 139.476 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 142.725 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 146.049 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 149.451 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 152.933 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 156.495 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 160.14 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 163.87 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 167.687 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 171.593 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 175.59 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 179.68 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 183.865 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 188.148 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 192.531 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 197.015 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 201.604 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 206.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 211.106 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 216.023 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 221.055 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 226.204 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 231.473 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 236.865 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 242.382 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 248.028 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 253.805 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 259.717 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 265.766 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 271.957 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 278.292 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 284.774 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 291.407 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 298.195 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 305.141 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 312.248 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 319.521 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 326.964 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 334.58 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 342.373 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 350.348 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 358.509 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 366.86 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 375.405 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 384.149 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 393.097 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 402.254 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 411.623 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 421.211 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 431.023 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 441.062 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 451.336 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 461.849 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 472.607 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 483.615 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 494.88 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 506.407 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 518.203 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 530.274 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 542.625 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 555.265 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 568.198 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 581.433 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 594.977 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 608.836 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 623.017 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 637.529 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 652.379 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 667.575 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 683.125 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 699.037 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 715.319 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 731.981 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 749.031 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 766.479 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 784.332 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 802.602 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 821.297 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 840.427 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 860.003 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 880.035 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 900.534 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 921.51 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 942.975 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 964.939 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 987.416 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1010.42 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1033.95 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1058.03 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1082.68 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1107.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1133.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1160.11 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1187.13 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1214.79 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1243.08 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1272.04 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1301.67 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1331.99 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1363.01 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1394.76 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1427.25 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1460.49 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1494.51 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1529.33 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1564.95 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1601.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1638.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1676.87 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1715.93 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1755.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1796.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1838.65 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1881.48 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1925.31 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 1970.15 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2016.04 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2063 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2111.06 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2160.23 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2210.55 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2262.04 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2314.73 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2368.65 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2423.82 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2480.28 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2538.05 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2597.17 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2657.66 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2719.57 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2782.92 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2847.74 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2914.07 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 2981.95 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3051.41 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3122.48 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3195.21 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3269.64 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3345.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3423.73 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3503.48 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3585.09 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3668.6 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3754.05 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3841.49 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 3930.97 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4022.54 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4116.23 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4212.11 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4310.23 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4410.62 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4513.36 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4618.49 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4726.07 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4836.15 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 4948.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5064.07 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5182.03 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5302.74 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5426.25 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5552.65 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5681.98 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5814.33 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 5949.77 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6088.36 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6230.17 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6375.29 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6523.79 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6675.75 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6831.25 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 6990.37 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 7153.19 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 7319.81 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 7490.31 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 7664.79 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 7843.32 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 8026.02 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 8212.97 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 8404.27 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 8600.03 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 8800.35 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 9005.34 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 9215.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 9429.75 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 9649.39 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 9874.16 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 10104.2 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 10339.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 10580.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 10826.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 11079 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 11337 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 11601.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 11871.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 12147.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 12430.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 12720.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 13016.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 13319.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 13630.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 13947.6 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 14272.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 14604.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 14945.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 15293.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 15649.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 16014 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 16387 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 16768.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 17159.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 17559 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 17968 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 18386.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 18814.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 19253.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 19701.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 20160.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 20630 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 21110.6 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 21602.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 22105.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 22620.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 23147.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 23686.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 24238.2 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 24802.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 25380.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 25971.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 26576.6 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 27195.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 27829.2 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 28477.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 29140.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 29819.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 30514.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 31224.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 31952.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 32696.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 33458 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 34237.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 35034.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 35850.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 36686 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 37540.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 38414.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 39309.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 40225.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 41162.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 42121.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 43102.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 44106.2 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 45133.6 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 46184.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 47260.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 48361.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 49488 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 50640.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 51820.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 53027.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 54262.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 55526.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 56819.8 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 58143.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 59497.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 60883.6 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 62301.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 63752.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 65237.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 66757.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 68312.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 69903.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 71531.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 73198.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 74903.1 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 76647.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 78433.2 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 80260.2 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 82129.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 84042.7 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 86000.3 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 88003.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 90053.4 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 92151 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 94297.5 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 96493.9 is above maximum 10^2 TeV.
+WARNING [Gilmore12FiducialEBLModel.cc, GetOpticalDepth:206]: Energy 98741.6 is above maximum 10^2 TeV.
+INFO [FluxNormFit.cc, main:242]: Computing interval
+INFO [DetectorResponse.cc, Reweight:838]: Reweghting. New spectral energy distribution: Simple power law [N(e/E₀)^(-𝛼) where N = 1e+17 TeV⁻¹ cm⁻² s⁻¹, E₀ = 1 TeV, 𝛼 = 2.07] for E∈(7.6,49.3) TeV
+INFO [FluxNormFit.cc, main:380]: Containment: 95.45%
+INFO [FluxNormFit.cc, main:381]: Flux units: TeV⁻¹ cm⁻² s⁻¹ (at 1 TeV)
+INFO [FluxNormFit.cc, main:391]: Results: 
+                                Spectrum        TS  sqrt(TS)      flux   lowerErr   upperErr  lowerBound  upperBound
+                    PowerLaw,1.0e-8,2.07      6.57      2.56  1.43e-11  -1.27e-11  +5.23e-11    1.61e-12    6.67e-11

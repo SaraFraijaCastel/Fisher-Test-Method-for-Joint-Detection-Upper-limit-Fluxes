@@ -1,0 +1,8 @@
+NSIDE = 1024
+ORDERING = RING in fits file
+INDXSCHM = IMPLICIT
+Min:                  0.00 ( 25.62,  5.83)
+Max:                  1.25 ( 25.49,  5.19)
+Map value at origin:  0.00
+Circle settings (color, width, alpha) = (white, 2, 1)
+File /lustre/hawcz01/scratch/userspace/jorgeamontes/GRB_KN/data/ULs/config/Coordinates/PSF_0.3/alfa=2.07/_plus_23/SIG_ALL_GRBs/GRB180805543.png created

@@ -1,0 +1,30 @@
+\begin{table*}[ht!]
+\centering
+\caption{Bursts and the significance of their possible TeV emission, considering a ABS of $\psfl^{\circ}$, $\psf^{\circ}$, and $\psfh^{\circ}$ in second, third, and fourth columns, respectively. The last column indicates the time after the trigger corresponding to the beginning of the transit over the HAWC FOV.}
+\label{tab:marginalGRBs}
+\begin{tabular}{lcccc}
+\toprule
+GRB  &  Transit  & $\sigma_{0.15}$ & $\sigma_{0.3}$ & $\sigma_{0.6}$ \\
+\midrule
+GRB141205337  & 2 & - & - & 3.22 \\
+GRB150101270  & 2 & - & 2.97 & 3.15 \\
+GRB170817529  & 1 & 2.72 & 2.72 & 2.72 \\
+GRB170826369 & 2 & (3.04) 0.98 & (3.04) 0.98 & (3.04) 0.98 \\
+GRB170826369  & 2 & - & - & 2.82 \\
+GRB180402406  & 2 & - & - & 3.05 \\
+GRB180418281  & 1 & - & - & 2.64 \\
+GRB180718082  & 2 & 2.90 & 2.90 & 2.90 \\
+GRB181125371  & 2 & - & - & 2.61 \\
+GRB190427190  & 1 & 2.55 & 2.55 & 2.55 \\
+GRB200415367  & 2 & 3.45 & 3.45 & 3.45 \\
+GRB201008443  & 2 & - & - & 3.02 \\
+GRB201214672  & 1 & 2.87 & 2.87 & 2.87 \\
+GRB220418720  & 2 & - & - & 2.52 \\
+GRB220511571  & 1 & - & - & 2.54 \\
+GRB220511571  & 2 & - & 2.51 & 2.55 \\
+GRB220617772  & 2 & - & - & 3.12 \\
+GRB230228244  & 2 & - & - & 3.10 \\
+\bottomrule
+\end{tabular}
+
+\end{table*}

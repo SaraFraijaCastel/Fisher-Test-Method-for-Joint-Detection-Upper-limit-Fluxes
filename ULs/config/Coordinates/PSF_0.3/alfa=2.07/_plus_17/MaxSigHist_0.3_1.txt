@@ -1,0 +1,45 @@
+GRB141205337,1__plus_20,Max not found or file corrupt
+GRB150101270,1__plus_20,Max:                  1.84 (312.35, 53.72)
+GRB150101641,1__plus_20,Max:                  1.96 (188.00,  5.72)
+GRB150110923,1__plus_20,Max:                  0.34 (289.37, 49.36)
+GRB150120123,1__plus_20,Max:                  2.70 ( 10.23, 50.87)
+GRB150922234,1__plus_20,Max:                  0.87 (294.04, 11.80)
+GRB151228129,1__plus_20,Max:                  0.61 (213.66, -0.71)
+GRB151229285,1__plus_20,Max:                  0.58 (329.33, -3.40)
+GRB160612842,1__plus_20,Max:                  0.00 (348.05, -8.05)
+GRB160624477,1__plus_20,Max:                  1.17 (329.86, 46.33)
+GRB160714097,1__plus_20,Max not found or file corrupt
+GRB160726065,1__plus_20,Max:                  1.72 ( 98.83, 10.66)
+GRB160821937,1__plus_20,Max not found or file corrupt
+GRB170318644,1__plus_20,Max:                  0.85 (283.97, 23.03)
+GRB170325331,1__plus_20,Max:                  0.94 (127.22, 37.26)
+GRB170803729,1__plus_20,Max:                  0.97 (175.25,  1.01)
+GRB170817529,1__plus_20,Max:                  0.34 (197.45, -6.05)
+GRB171007498,1__plus_20,Max not found or file corrupt
+GRB180204109,1__plus_20,Max:                  0.00 (329.82, 48.14)
+GRB180402406,1__plus_20,Max not found or file corrupt
+GRB180418281,1__plus_20,Max:                  1.03 (169.85, 41.61)
+GRB180715755,1__plus_20,Max:                  0.32 (235.28, 15.99)
+GRB180718082,1__plus_20,Max:                  0.60 (336.05, 19.63)
+GRB180805543,1__plus_20,Max:                  0.08 ( 25.53, -0.82)
+GRB181125371,1__plus_20,Max:                  2.62 (268.73, 14.63)
+GRB190427190,1__plus_20,Max:                  0.00 (279.85, 57.64)
+GRB191031891,1__plus_20,Max not found or file corrupt
+GRB200415367,1__plus_20,Max not found or file corrupt
+GRB200623138,1__plus_20,Max not found or file corrupt
+GRB201008443,1__plus_20,Max:                  2.28 (161.64, 63.45)
+GRB201214672,1__plus_20,Max:                  0.48 (187.65, 26.07)
+GRB201221963,1__plus_20,Max:                  0.93 (170.99, 58.82)
+GRB210323918,1__plus_20,Max:                  0.51 (317.64, 42.71)
+GRB210618072,1__plus_20,Max not found or file corrupt
+GRB210827416,1__plus_20,Max not found or file corrupt
+GRB211024065,1__plus_20,Max:                  2.21 ( 28.17, 10.35)
+GRB220412713,1__plus_20,Max:                  1.81 (321.11, 16.96)
+GRB220418720,1__plus_20,Max:                  1.19 (224.03, -0.26)
+GRB220511571,1__plus_20,Max:                  2.75 (287.58, 34.64)
+GRB220617772,1__plus_20,Max:                  0.43 (157.24, 32.22)
+GRB221022815,1__plus_20,Max not found or file corrupt
+GRB221120895,1__plus_20,Max:                  0.04 ( 40.99, 59.91)
+GRB230228244,1__plus_20,Max:                  1.63 ( 18.13, 61.24)
+GRB230512269,1__plus_20,Max:                  1.42 (295.08, 55.63)
+GRB230812790,1__plus_20,Max:                  1.41 (249.16, 64.43)

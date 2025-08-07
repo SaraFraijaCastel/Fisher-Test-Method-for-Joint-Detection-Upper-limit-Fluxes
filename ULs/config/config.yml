@@ -1,0 +1,19 @@
+name: "z=0"
+label: "FINAL"
+Delta: 0
+bin_size: 0.3
+spectral_index: 1.5
+
+PATH_BASE: "/lustre/hawcz01/scratch/userspace/jorgeamontes/GRB_KN/"
+GITLAB_DIR: "/lustre/hawcz01/scratch/userspace/jorgeamontes/GitLab_kn_paper/"
+healpix_folder: "healpixz=0_alfa1.5"
+ENERGY_CSV_FILE: "Energy_ranges_with_pseudoredshift_z=0_alfa=1.5.csv"
+GRB_CSV: "GRB_List_z=0.csv" 
+EBL_list:
+  - "Franceschini08"
+  - "Gilmore12Fiducial" 
+
+LABEL_UL_CODE: "ER"
+FORCE_BINSIZE: false
+name_z: "z+pseudo"
+limit_redshift: 0.5

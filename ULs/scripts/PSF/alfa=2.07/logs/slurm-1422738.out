@@ -1,0 +1,8 @@
+########################## start user prologue 26563 ###########################
+Created QTMPDIR
+QTMPDIR=/local/1422738
+##########################  end user prologue  26563 ###########################
+This is the Sara Fraija Space
+Activate HAWC enviroment
+>>> Configuration file found, will be ignored in favour of command line
+slurmstepd: error: *** JOB 1422738 ON gala26 CANCELLED AT 2025-05-09T00:13:39 ***

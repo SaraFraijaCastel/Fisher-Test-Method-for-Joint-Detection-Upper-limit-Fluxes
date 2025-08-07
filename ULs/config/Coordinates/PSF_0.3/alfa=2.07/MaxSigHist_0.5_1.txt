@@ -1,0 +1,19 @@
+GRB150819440,1,Max not found or file corrupt
+GRB170708046,1,Max:                  0.98 (336.18, 19.51)
+GRB170816599,1,Max:                  1.70 (350.73, 12.79)
+GRB150819440,1,Max not found or file corrupt
+GRB170708046,1,Max:                  0.98 (336.18, 19.51)
+GRB170816599,1,Max:                  1.70 (350.73, 12.79)
+GRB150819440,1,Max not found or file corrupt
+GRB170708046,1,Max:                  0.98 (336.18, 19.51)
+GRB170816599,1,Max:                  1.70 (350.73, 12.79)
+GRB150819440,1,Max not found or file corrupt
+GRB170708046,1,Max:                  0.98 (336.18, 19.51)
+GRB170816599,1,Max:                  1.70 (350.73, 12.79)
+GRB150819440,1,Max not found or file corrupt
+GRB150819440,1,Max not found or file corrupt
+GRB170708046,1,Max:                  0.98 (336.18, 19.51)
+GRB170816599,1,Max:                  1.70 (350.73, 12.79)
+GRB150819440,1,Max not found or file corrupt
+GRB170708046,1,Max:                  0.98 (336.18, 19.51)
+GRB170816599,1,Max:                  1.70 (350.73, 12.79)

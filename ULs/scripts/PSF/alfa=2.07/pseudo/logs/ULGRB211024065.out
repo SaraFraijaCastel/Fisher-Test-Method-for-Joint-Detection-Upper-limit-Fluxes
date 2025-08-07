@@ -1,0 +1,17 @@
+########################## start user prologue 25475 ###########################
+Created QTMPDIR
+QTMPDIR=/local/1423541
+##########################  end user prologue  25475 ###########################
+This is the Sara Fraija Space
+Activate HAWC enviroment
+>>> Configuration file found, will be ignored in favour of command line
+tried to move past end of file
+Error reading elements 1 thru 1024 from column 1 (ffgcld).
+Error encountered at /data/disk01/home/smfraijac/hawc_software/hawc_aerie/build_dir_ape/apebuild/healpix-cxx/healpix-cxx-3.31/cxxsupport/fitshandle.cc, line 165
+(function void fitshandle::check_errors() const)
+
+FITS error
+
+FATAL ERROR [MapFile.cc, Open:1024]: Unable to read /lustre/hawcz01/scratch/userspace/jorgeamontes/GRB_KN/data/corrected//GRB211024065/transit_2/GRB211024065_corrected_transit_2_binB8C1_N1024.fits.gz
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Unable to read /lustre/hawcz01/scratch/userspace/jorgeamontes/GRB_KN/data/corrected//GRB211024065/transit_2/GRB211024065_corrected_transit_2_binB8C1_N1024.fits.gz

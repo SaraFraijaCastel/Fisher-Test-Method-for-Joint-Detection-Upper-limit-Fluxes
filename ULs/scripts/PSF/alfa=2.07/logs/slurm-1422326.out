@@ -1,0 +1,7 @@
+########################## start user prologue 14377 ###########################
+Created QTMPDIR
+QTMPDIR=/local/1422326
+##########################  end user prologue  14377 ###########################
+This is the Sara Fraija Space
+Activate HAWC enviroment
+slurmstepd: error: *** JOB 1422326 ON gala05 CANCELLED AT 2025-05-08T23:45:15 ***

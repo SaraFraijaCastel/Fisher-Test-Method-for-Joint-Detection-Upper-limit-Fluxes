@@ -1,0 +1,3 @@
+GRB170206453,2__minus_5,Max not found or file corrupt
+GRB170206453,2__minus_5,Max not found or file corrupt
+GRB170206453,2__minus_-5,Max:                  2.07 (212.56,  9.22)

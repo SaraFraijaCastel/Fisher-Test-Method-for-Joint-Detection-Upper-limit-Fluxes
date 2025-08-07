@@ -1,0 +1,12 @@
+GRB160806584,1,Max not found or file corrupt
+GRB160822672,1,Max not found or file corrupt
+GRB160806584,1,Max not found or file corrupt
+GRB160822672,1,Max not found or file corrupt
+GRB160806584,1,Max not found or file corrupt
+GRB160822672,1,Max not found or file corrupt
+GRB160806584,1,Max not found or file corrupt
+GRB160822672,1,Max not found or file corrupt
+GRB160806584,1,Max not found or file corrupt
+GRB160822672,1,Max not found or file corrupt
+GRB160806584,1,Max not found or file corrupt
+GRB160822672,1,Max not found or file corrupt
